@@ -20,7 +20,18 @@
 export default {
   data () {
     return {
-      parts: []
+      parts: [
+          {'company': 'Volvo Information Technology',
+          'position': 'Application Specialist',
+          'summary': 'Maintainance of Time&Attendance System for Volvo Group and Volvo Cars',
+          'date_started': 'Aug 2012',
+          'date_ended': 'Feb 2015'},
+          {'company': 'Connection Technology Systems NE AB',
+          'summary': 'Product Manager for Embedded IoT- Gateway with Z-Wave. Networking Engineer for CPE and Access- Switches sold by CTS.',
+          'position': 'Product Manager/Network Engineer',
+          'date_started': 'Feb 2015',
+          'date_ended': '-'}
+      ]
     }
   }
 }

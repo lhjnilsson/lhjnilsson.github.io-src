@@ -1,5 +1,5 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+  <section class="resume-section p-3 p-lg-5 d-flex d-column">
     <div class="my-auto">
       <h1 class="mb-0">Henrik
         <span class="text-primary">Nilsson</span>
@@ -7,7 +7,7 @@
       <div class="subheading mb-5">Gothenburg, Sweden
         <a href="mailto:henrik@lhjnilsson.com">henrik@lhjnilsson.se</a>
       </div>
-      <p class="mb-5">Passionate about computers and programming. Educated as Network Enginner and working with Embedded Devices</p>
+      <p class="mb-5">Passionate about computers and programming. Educated as Network Enginner, currently working with Embedded Development</p>
       <ul class="list-inline list-social-icons mb-0">
         <li class="list-inline-item">
           <a href="https://twitter.com/lhjnilsson">
