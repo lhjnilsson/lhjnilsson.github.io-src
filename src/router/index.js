@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import About from '@/components/About'
 import Work from '@/components/Work'
-import Blog from '@/components/Blog'
 import Education from '@/components/Education'
 import Experience from '@/components/Experience'
 
@@ -30,11 +29,6 @@ export default new Router({
       path: '/experience',
       name: 'Experience',
       component: Experience
-    },
-    {
-      path: '/blog',
-      name: 'Blog',
-      component: Blog
     }
   ]
 })

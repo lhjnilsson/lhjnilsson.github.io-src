@@ -22,16 +22,18 @@
         <router-link :to="{ name: 'Work', params: {} }" class="nav-item" activeClass="active" tag="li">
           <a class="nav-link">Work</a>
         </router-link>
-        <router-link :to="{ name: 'Blog', params: {} }" class="nav-item" activeClass="active" tag="li">
-          <a class="nav-link">Blog</a>
-        </router-link>
       </ul>
     </div>
   </nav>
 </template>
 
 <script>
-
+export default {
+  data () {
+    return {
+    }
+  }
+}
 </script>
 
 <style scoped>
